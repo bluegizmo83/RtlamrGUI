@@ -92,7 +92,10 @@ class rtlamr(QThread):
 
     def setVaribles(self, filterIDbox, selectedradiobutton, uniquecheck):
         self.filterIDbox = '-filterid=' + str(filterIDbox)
-        self.selectedradiobutton = '-msgtype=' + str(selectedradiobutton)
+        if str(selectedradiobutton) == 'scmplus':
+            self.selectedradiobutton = '-msgtype=scm+'
+        else:
+            self.selectedradiobutton = '-msgtype=' + str(selectedradiobutton)
         self.uniquecheck = '-unique=' + str(uniquecheck)
         print self.filterIDbox
         print self.selectedradiobutton
