@@ -1,7 +1,7 @@
 # RtlamrGUI
 Windows GUI interface for the popular Rtlamr command line application used for reading utility meters with an RTL-SDR.
 
-This program requires Rtlamr, written by Douglas Hall, and can be found here: https://github.com/bemasher/rtlamr
+*This program requires Rtlamr, written by Douglas Hall, and can be found here: https://github.com/bemasher/rtlamr*
 
 ![](../master/RtlamrGUI.jpg)
 
